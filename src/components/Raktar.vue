@@ -1,9 +1,10 @@
 <template>
   <div>
       <tr>
-          <th>Title</th>
-          <th>Price</th>
-          <th>Quantity</th>
+          <td>Title</td>
+          <td>Price</td>
+          <td>Quantity</td>
+          <td>Operations</td>
       </tr>
       <itemek
             v-for="e in tetel"
@@ -23,5 +24,8 @@ import Itemek from './Itemek.vue'
 </script>
 
 <style scoped>
+    td{
+        padding-right: 10px;
+    }
     
 </style>
