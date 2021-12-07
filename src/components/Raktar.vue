@@ -15,7 +15,7 @@
             <td><input type="text" v-model="title"></td>
             <td><input type="number" v-model="price"></td>
             <td><input type="number" v-model="quantity"></td>
-            <td><button @click="hozzaad">ADD</button></td>
+            <td><button @click="hozzaad">Add</button></td>
         </tr>
   </div>
 </template>
@@ -37,9 +37,6 @@ import Itemek from './Itemek.vue'
     methods: {
         hozzaad() {
             this.$emit("hozzaad", { title: this.title, price: this.price, quantity: this.quantity})
-        },
-        torol(e) {
-            this.$emit("torol", e)
         }
     }
 }
