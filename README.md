@@ -1,4 +1,4 @@
-# [Név]
+# [Balázs Krisztián]
 
 ## Hogyan kezdj neki?
 
