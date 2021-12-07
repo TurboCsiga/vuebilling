@@ -1,7 +1,14 @@
 <template>
   <div id="app">
     <Raktar :tetel="rows" />
+    <tr>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+        <td><button>Add</button></td>
+    </tr>
   </div>
+  
 </template>
 
 <script>
