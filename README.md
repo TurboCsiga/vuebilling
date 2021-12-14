@@ -10,6 +10,7 @@
 6. Telepítsd a függőségeket
 7. 
 ```
+
   npm install
 ```
 7. Indítsd el a fejlesztői szervert
