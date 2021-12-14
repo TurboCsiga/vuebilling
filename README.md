@@ -8,6 +8,7 @@
 4. Clone-ozd a saját(!) repodat a VSCode-ba
 5. Írd át a Readme.md elején a [Név] részt a saját nevedre, majd commitolj és pusholj.
 6. Telepítsd a függőségeket
+7. 
 ```
   npm install
 ```
